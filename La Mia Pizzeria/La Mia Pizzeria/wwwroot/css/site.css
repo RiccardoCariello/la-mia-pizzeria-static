@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.fs_large{
+    font-size: 24px;
+}
+
+.bg_color_blue{
+    background-color: burlywood;
+}
+
+.square {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    /*max-width: 300px;
+    max-height:200px;
+    */
+}
+
+.card_size {
+    height: 600px;
+    width: auto;
+}
+.card_body_size {
+    height: 625 px;
+    width: 230 px;
+}
+
+               }
